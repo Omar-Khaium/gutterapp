@@ -1,0 +1,46 @@
+name: gutterapp
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http:
+  path_provider:
+  provider:
+  flutter_bloc:
+  hydrated_bloc:
+  google_fonts:
+  material_design_icons_flutter:
+  uuid:
+  shimmer:
+  flutter_colorpicker:
+  intl:
+  painter:
+  cached_network_image:
+  flutter_typeahead:
+  connectivity:
+  video_player:
+  image_picker:
+  lottie:
+  url_launcher:
+  flutter_keyboard_visibility:
+  hive:
+  hive_flutter:
+  printing:
+  permission_handler:
+  flutter_file_dialog:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+    - videos/
